@@ -10,7 +10,7 @@ const projects = [
   {
     id: 2,
     title: "Calendar",
-    description: "A calendar app letting you set events for specific dates, and adding attachments to them like videos or pictures."
+    description: "A calendar app letting you set events for specific dates, and adding attachments to them like videos or pictures.",
     tags:["React", "HTML", "CSS", "JavaScript", "Vite"],
     liveUrl: "https://calendar-project-fb.web.app/",
     githubUrl: "https://github.com/michael101831/Calendar",
