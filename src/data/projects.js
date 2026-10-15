@@ -17,7 +17,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "Calendar",
+    title: "Game Release Board",
     description: "Release board that shows game release dates using the RAWG's Api.  You can also create an account to bookmark upcoming games your interested in",
     tags:["HTML", "CSS", "JavaScript", "Node.js"],
     liveUrl: "https://thegamecheckoff.com/",
