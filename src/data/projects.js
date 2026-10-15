@@ -14,7 +14,7 @@ const projects = [
     tags:["React", "HTML", "CSS", "JavaScript", "Vite"],
     liveUrl: "https://calendar-project-fb.web.app/",
     githubUrl: "https://github.com/michael101831/Calendar",
-  }
+  },
   {
     id: 3,
     title: "Calendar",
