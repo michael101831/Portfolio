@@ -15,6 +15,14 @@ const projects = [
     liveUrl: "https://calendar-project-fb.web.app/",
     githubUrl: "https://github.com/michael101831/Calendar",
   }
+  {
+    id: 3,
+    title: "Calendar",
+    description: "Release board that shows game release dates using the RAWG's Api.  You can also create an account to bookmark upcoming games your interested in",
+    tags:["HTML", "CSS", "JavaScript", "Node.js"],
+    liveUrl: "https://thegamecheckoff.com/",
+    githubUrl: "https://github.com/michael101831/Game-Release-Board",
+  }
 
 ];
 
