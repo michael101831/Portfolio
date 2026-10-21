@@ -6,7 +6,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <a href="#hero" className="navbar-logo">YourName</a>
+      <a href="#hero" className="navbar-logo">Michael Ward</a>
 
       <button
         className="navbar-toggle"

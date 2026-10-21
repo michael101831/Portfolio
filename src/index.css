@@ -1,6 +1,6 @@
 :root {
-  --color-bg: #0f0f0f;
-  --color-surface: #1a1a1a;
+  --color-bg: #121016;
+  --color-surface: rgba(26, 24, 32, 0.82);
   --color-accent: #5d35ff;
   --color-accent-hover: #6943ff;
   --color-text: #e8e8e8;
@@ -31,6 +31,11 @@ body {
   line-height: 1.6;
 }
 
+main {
+  position: relative;
+  z-index: 1;
+}
+
 a {
   color: var(--color-accent);
   text-decoration: none;
@@ -49,6 +54,16 @@ img {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 2.5rem;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 2.75rem;
+  height: 3px;
+  margin-top: 0.85rem;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--color-accent), #9a97a6);
 }
 
 /* Reusable button styles */
