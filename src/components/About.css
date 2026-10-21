@@ -39,6 +39,14 @@
   font-size: 0.875rem;
   color: var(--color-text-muted);
   background-color: var(--color-surface);
+  backdrop-filter: blur(10px);
+  transition: color 0.2s, border-color 0.2s, background-color 0.2s;
+}
+
+.skill-tag:hover {
+  color: var(--color-text);
+  border-color: var(--color-accent);
+  background-color: rgba(93, 53, 255, 0.18);
 }
 
 @media (max-width: 640px) {
