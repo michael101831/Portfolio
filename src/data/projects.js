@@ -22,6 +22,14 @@ const projects = [
     tags:["HTML", "CSS", "JavaScript", "Node.js"],
     liveUrl: "https://thegamecheckoff.com/",
     githubUrl: "https://github.com/michael101831/Game-Release-Board",
+  },
+  {
+    id: 4,
+    title: "Parallel",
+    description: "A project board for managing tasks, priorities, and deadlines, and moving that work between columns with the people on the project.",
+    tags: ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Prisma"],
+    liveUrl: "https://taskflow-project-fb.web.app/",
+    githubUrl: "https://github.com/michael101831/taskflow",
   }
 
 ];
