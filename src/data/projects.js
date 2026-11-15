@@ -30,6 +30,14 @@ const projects = [
     tags: ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Prisma"],
     liveUrl: "https://taskflow-project-fb.web.app/",
     githubUrl: "https://github.com/michael101831/taskflow",
+  },
+  {
+    id: 5,
+    title: "Waymark",
+    description: "A local events finder that searches live events near you, maps them, and keeps favorites.",
+    tags: ["React", "TypeScript", "Firebase", "Leaflet"],
+    liveUrl: "https://localfind-fb.web.app/",
+    githubUrl: "https://github.com/michael101831/local-events-finder",
   }
 
 ];
